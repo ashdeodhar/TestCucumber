@@ -20,7 +20,7 @@ static readProperties prop  = new readProperties();
 		
 		if(prop.getBrowserName().equals("Chrome"))
 		{		
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ashutosh.c.deodhar\\Downloads\\chromedriver.exe");	
 			driver = new ChromeDriver();
 		}
 		
